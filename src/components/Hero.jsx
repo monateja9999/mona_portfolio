@@ -36,7 +36,7 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center md:items-start gap-10 text-center md:text-left">
           {/* Image Section */}
           <img
-            src="src/assets/profile_picture.png"
+            src="src/assets/Mona Teja Kurakula.jpg"
             alt="Mona Teja Kurakula"
             className="w-48 h-48 rounded-full object-cover border-8 border-[#915EFF] transition-transform duration-300 ease-in-out hover:scale-125"
           />
