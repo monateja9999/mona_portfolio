@@ -30,6 +30,9 @@ import stocksearch from "./stocksearch.png";
 import xchange from "./xchange.png";
 import contextualmatching from "./contextualmatching.png";
 
+import youtube from "./youtube.png";
+import profilepicture from "./profile_picture.png";
+
 export {
   logo,
   backend,
@@ -59,4 +62,6 @@ export {
   stocksearch,
   xchange,
   contextualmatching,
+  youtube,
+  profilepicture,
 };

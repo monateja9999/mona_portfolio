@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { profilepicture } from "../assets";
 
 const Hero = () => {
   const [textIndex, setTextIndex] = useState(0);
@@ -36,7 +37,7 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center md:items-start gap-10 text-center md:text-left">
           {/* Image Section */}
           <img
-            src="../assets/profile_picture.png"
+            src={profilepicture}
             alt="Mona Teja Kurakula"
             className="w-48 h-48 rounded-full object-cover border-8 border-[#915EFF] transition-transform duration-300 ease-in-out hover:scale-125"
           />
