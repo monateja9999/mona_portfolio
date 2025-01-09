@@ -32,6 +32,8 @@ import contextualmatching from "./contextualmatching.png";
 
 import youtube from "./youtube.png";
 import profilepicture from "./profile_picture.png";
+import resume from "./Mona-Teja-Kurakula-Resume.pdf";
+
 
 export {
   logo,
@@ -64,4 +66,5 @@ export {
   contextualmatching,
   youtube,
   profilepicture,
+  resume,
 };

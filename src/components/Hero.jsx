@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { profilepicture } from "../assets";
+import { resume } from "../assets";
 
 const Hero = () => {
   const [textIndex, setTextIndex] = useState(0);
@@ -82,7 +83,7 @@ const Hero = () => {
             </h1>
             <div className="mt-5">
               <a
-                href="../assets/Mona-Teja-Kurakula-Resume.pdf"
+                href={resume}
                 download="Mona-Teja-Kurakula-Resume.pdf"
                 style={{ textDecoration: "none" }}
               >
