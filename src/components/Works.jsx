@@ -18,7 +18,7 @@ const ProjectCard = ({
   youtube_link,
 }) => {
   const handleMouseEnter = (cardRef) => {
-    cardRef.current.style.transform = "scale(1.05)";
+    cardRef.current.style.transform = "scale(1.25)";
     cardRef.current.style.boxShadow = "0 10px 20px rgba(0, 0, 0, 0.2)";
   };
 
