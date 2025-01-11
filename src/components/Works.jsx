@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github, youtube } from "../assets";
+import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -17,16 +17,14 @@ const ProjectCard = ({
   live_demo_link,
   youtube_link,
 }) => {
-  const handleMouseMove = (e, cardRef) => {
-    const rect = cardRef.current.getBoundingClientRect();
-    const x = e.clientX - rect.left - rect.width / 2;
-    const y = e.clientY - rect.top - rect.height / 2;
-
-    cardRef.current.style.transform = `rotateY(${x / 15}deg) rotateX(${-y / 15}deg)`;
+  const handleMouseEnter = (cardRef) => {
+    cardRef.current.style.transform = "scale(1.05)";
+    cardRef.current.style.boxShadow = "0 10px 20px rgba(0, 0, 0, 0.2)";
   };
 
   const handleMouseLeave = (cardRef) => {
-    cardRef.current.style.transform = `rotateY(0deg) rotateX(0deg)`;
+    cardRef.current.style.transform = "scale(1)";
+    cardRef.current.style.boxShadow = "none";
   };
 
   const cardRef = React.useRef();
@@ -35,7 +33,7 @@ const ProjectCard = ({
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <div
         ref={cardRef}
-        onMouseMove={(e) => handleMouseMove(e, cardRef)}
+        onMouseEnter={() => handleMouseEnter(cardRef)}
         onMouseLeave={() => handleMouseLeave(cardRef)}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full transition-transform duration-300"
       >
@@ -53,7 +51,7 @@ const ProjectCard = ({
                 className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
               >
                 <img
-                  src={youtube}
+                  src={"src/assets/youtube.png"} // Replace with actual YouTube icon path
                   alt="YouTube"
                   className="w-1/2 h-1/2 object-contain"
                 />
