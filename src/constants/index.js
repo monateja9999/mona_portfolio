@@ -216,7 +216,7 @@ const projects = [
     ],
     image: stocksearch,
     source_code_link: "https://github.com/monateja9999/stock_trek",
-    live_demo_link: "https://myclient6853863452.wl.r.appspot.com/",
+    live_demo_link: "https://stock-trek.netlify.app/",
     youtube_link: "https://youtu.be/0IYM2VKoPzM",
   },
   {
