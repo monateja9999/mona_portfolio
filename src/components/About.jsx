@@ -59,13 +59,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify"
       >
-        Hi, I am Mona Teja Kurakula, a computer science graduate student at the University of Southern California
-        with a strong focus on full-stack development, machine learning, and data analytics. With hands-on experience
-        building scalable web and mobile applications, I have developed impactful solutions, including an app that
-        streamlined student services and real-time sports analytics platforms at Matchday.ai. My roles at Shell and
-        as a QA Tester further honed my ability to optimize systems and enhance user experiences. Passionate about
-        solving real-world problems, I combine technical expertise with creativity to deliver innovative, end-to-end
-        solutions. Let’s connect and create the future of tech together!
+        Hi, I am Mona Teja Kurakula, a Computer Science graduate from the University of Southern California 
+        with a strong focus on full-stack development, machine learning, and data analytics. 
+        With hands-on experience building scalable web and mobile applications, I have developed impactful solutions, 
+        including an app that streamlined student services and real-time sports analytics platforms at Matchday.ai. 
+        My roles at Shell and as a QA Tester further honed my ability to optimize systems and enhance user experiences. 
+        Passionate about solving real-world problems, I combine technical expertise with creativity to deliver innovative, end-to-end solutions. 
+        Let's connect and create the future of tech together!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
