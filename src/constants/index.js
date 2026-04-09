@@ -141,7 +141,7 @@ const experiences = [
     company_name: "University of Southern California",
     icon: usc,
     iconBg: "#FFFFFF",
-    date: "August 2024 - May 2025>",
+    date: "August 2024 - May 2025",
     points: [
       "Ranked 1st in a class of 481 in the term exam and appointed as a grader for the Web Technologies course under Prof. Marco Papa.",
       "Assisted in instructing students on assignments and homework related to MERN and MEAN stacks, Kotlin for Android Development, and Flask.",
